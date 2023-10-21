@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li>a {
+    text-decoration: none;
+    color: #44493F;
+    padding: 10px;
+    font-family: Tahoma;
+    font-size: 30px;
+}
+
+body {
+    background-image: url('/assets/img/manos.jpg');
+    /* Ruta de tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    /* 100% del viewport height para cubrir toda la página */
+
+}
+
+.countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    font-family: Arial, sans-serif;
+}
+
+.countdown-item {
+    margin: 0 10px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #2b2e2c;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    /* Sombra de texto */
+}
+
+.Falta {
+    font-size: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Info {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Banner{
+    background-color: #78856B;
+}
