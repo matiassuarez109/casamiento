@@ -13,7 +13,7 @@ li>a {
 }
 
 body {
-    background-image: url('/assets/img/manos.jpg');
+    background-image: url('/assets/img/fondo.png');
     /* Ruta de tu imagen de fondo */
     background-size: cover;
     background-position: center;
@@ -34,8 +34,8 @@ body {
     margin: 0 10px;
     padding: 10px;
     border-radius: 10px;
-    color: #2b2e2c;
-    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    color: #44493F;
+    text-shadow: 4px 4px 4px #44493F;
     /* Sombra de texto */
 }
 
@@ -53,10 +53,11 @@ body {
     font-size: 2rem;
 }
 
-h1{
-    font-family: Arial, Helvetica, sans-serif;
+
+.Banner {
+    background-color: #78856B;
 }
 
-.Banner{
-    background-color: #78856B;
+h1 {
+    background-color: aqua;
 }
