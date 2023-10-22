@@ -70,7 +70,16 @@ h1 {
     right: 50px;
 }
 
-.card1{
-    display: flex;
-    
+
+
+.card{
+    left: 300px;
+}
+
+.crad1{
+    left: 300px;
+}
+
+.btn{
+    background-color: #78856B;
 }
