@@ -61,3 +61,16 @@ body {
 h1 {
     background-color: aqua;
 }
+
+.Wp{
+    position: fixed;
+    right: 5px;
+    bottom: 50px;
+    z-index: 1;
+    right: 50px;
+}
+
+.card1{
+    display: flex;
+    
+}
