@@ -19,3 +19,45 @@ function updateCountdown() {
 }
 
 setInterval(updateCountdown, 1000);
+
+
+//dark mode
+
+const darkbtn = document.getElementById('darkbtn');
+const body = document.body;
+
+const isDarkMode = localStorage.getItem('darkMode') === 'enabled';
+
+if (isDarkMode) {
+    body.classList.add('dark-mode');
+    darkbtn.checked = true;
+}
+
+darkbtn.addEventListener('change', () => {
+    if (darkbtn.checked) {
+        body.classList.add('dark-mode');
+        localStorage.setItem('darkMode', 'enabled');
+    } else {
+        body.classList.remove('dark-mode');
+        localStorage.setItem('darkMode', 'disabled');
+    }
+});
+
+//go top
+window.onscroll = function(){
+    if(document.documentElement.scrollTop > 100) {
+        document.querySelector('.go-top-container')
+        .classList.add('show')
+    }else{
+        document.querySelector('.go-top-container')
+        .classList.remove('show')
+    }
+}
+
+document.querySelector('.go-top-container')
+.addEventListener('click',() =>{
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+});
